@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, time
 import csv
 import time as pytime
 
-API_KEY = "05f281d0f3a9c2f522191de3a0c4ad17"
+API_KEY = ""  # Replace with your actual OpenWeatherMap API key
 LAT = 33.44  # UTDallas coordinates
 LON = -94.04
 TIMEZONE = pytz.timezone('America/Chicago')

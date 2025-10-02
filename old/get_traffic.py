@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, time
 import pytz  # Install with: pip install pytz
 import time as pytime  # Import time for sleep function
 # Configuration
-API_KEY = "AIzaSyBdkiP9IO7GiHaxQJxgKmMRArPu6k8Gs5k"
+API_KEY = ""  # Replace with your actual Google Maps API key
 ORIGIN = "place_id:ChIJe8bJ-E8ZTIYR_uU4YdzLq6w"  # Paxel Financial Consulting, 450 Independence Pkwy Suite 100, Richardson, TX
 DESTINATION = "place_id:ChIJZ0aPfAAhTIYROHWBjj3YtnA"  # UTD Parking Strucutre 4, 2520 Drive H, Richardson, TX
 TIMEZONE = "America/Chicago"  # Richardson, TX timezone (CDT)
